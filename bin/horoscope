@@ -1,11 +1,3 @@
 #!/usr/bin/env ruby
-
-require 'pry'
-require 'httparty'
-require 'json'
-
-require_relative '../lib/cli'
-require_relative '../lib/api'
-require_relative '../lib/horoscope'
-
+require_relative "../config/horoscope_api"
 CLI.new.menu

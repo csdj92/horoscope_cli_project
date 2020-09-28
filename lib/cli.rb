@@ -7,8 +7,6 @@ class CLI
         @date = gets.strip.downcase
         puts "Please enter your Astrological sign."
         puts""
-       
-
         @sign = gets.strip.downcase
         API.get_horoscope(@date, @sign)
     end
